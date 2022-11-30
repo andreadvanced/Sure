@@ -1,0 +1,17 @@
+{% extends 'account/base.html' %}
+
+{% block content %}
+    <div class="text-center">
+        <h2>Home</h2>
+        <p>Olá {{ user.first_name }}!</p>
+        <p>Usuário : {{ user }}</p>
+        <a href="/form" class="btn btn-dark">Preencher Escala</a>
+        <a href="/dash2" class="btn btn-dark">Quadro Geral</a>
+        <a href="/paineldeescalas" class="btn btn-dark">Painel de Escalas</a>
+        <a class="btn btn-dark" href="{% url 'socialaccount_connections' %}">Configurações</a>
+    </div>
+
+
+    <hr>
+    
+{% endblock %}

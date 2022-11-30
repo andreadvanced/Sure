@@ -1,0 +1,8 @@
+# Ignore todos os arquivos de texto
+
+
+# Ignore arquivos do env
+#/env
+#/venv
+# o banco sqlite
+db.sqlite3
